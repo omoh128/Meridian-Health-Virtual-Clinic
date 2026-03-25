@@ -1,0 +1,333 @@
+/* ─────────────────────────────
+   HERO
+───────────────────────────── */
+.doc{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(155deg,#e6f2ec 0%,#fdf6ec 50%,#fdf5e6 100%);
+  padding:4rem 5% 0;
+}
+
+.doc::after{
+  content:'';
+  position:absolute;
+  right:-15%;
+  top:-20%;
+  width:60%;
+  height:130%;
+  background:radial-gradient(ellipse,rgba(37,99,235,0.08) 0%,transparent 65%);
+  border-radius:50%;
+  pointer-events:none;
+}
+
+.doc-inner{
+  max-width:1100px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1fr 360px;
+  gap:3rem;
+  align-items:end;
+}
+
+.doc-left{
+  padding-bottom:4rem;
+}
+
+
+/* ─────────────────────────────
+   STATS BAND
+───────────────────────────── */
+.docstats-band{
+  background: linear-gradient(90deg,#1f2937,#111827);
+  padding: 3rem 1.5rem;
+  color: white;
+}
+
+.docstats-inner{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  text-align: center;
+}
+
+.docstat-c{
+  flex: 1;
+}
+
+.dsn{
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+}
+
+.dsl{
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+
+/* ─────────────────────────────
+   BODY WRAPPER
+───────────────────────────── */
+.docbody-wrap{
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+
+/* ─────────────────────────────
+   SECTION TITLES
+───────────────────────────── */
+.doceyebrow{
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.docsec-h{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+
+/* ─────────────────────────────
+   ABOUT
+───────────────────────────── */
+.docabout-p{
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.docpullout{
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-left: 4px solid #2563eb;
+  font-style: italic;
+  border-radius: 6px;
+}
+
+.docpullout cite{
+  display: block;
+  margin-top: 0.8rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* ─────────────────────────────
+   EXPERTISE
+───────────────────────────── */
+.docspecs{
+  margin-top: 3rem;
+}
+
+.spec-tag{
+  display: inline-block;
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 0.4rem 0.8rem;
+  border-radius: 30px;
+  margin: 0.3rem 0.3rem 0 0;
+  font-size: 0.8rem;
+}
+
+
+/* ─────────────────────────────
+   TIMELINE
+───────────────────────────── */
+.doctimeline{
+  margin-top: 4rem;
+}
+
+.tl-item{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.dtl-dot{
+  width: 40px;
+  height: 40px;
+  background: #e5e7eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.dtl-year{
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.dtl-deg{
+  font-weight: 600;
+}
+
+.dtl-sch{
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+
+/* ─────────────────────────────
+   REVIEWS
+───────────────────────────── */
+.dreviews{
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.rev-card{
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.rev-card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.05);
+}
+
+.drev-top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.drev-name{
+  font-weight: 600;
+}
+
+.drev-date{
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.drev-stars{
+  color: #fbbf24;
+}
+
+.drev-text{
+  color: #374151;
+  line-height: 1.6;
+}
+
+
+/* ─────────────────────────────
+   SIDEBAR
+───────────────────────────── */
+.docsidebar{
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+
+.ds-card{
+  background: white;
+  padding: 1.5rem;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 1.5rem;
+}
+
+.ds-title{
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.dsched{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.dsr{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.dsr.today{
+  font-weight: 600;
+}
+
+.sh{ color: #16a34a; }
+.sc{ color: #dc2626; }
+
+.doclangs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.lang{
+  background: #f3f4f6;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.dins-note{
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+
+/* ─────────────────────────────
+   CTA
+───────────────────────────── */
+.doccta-card{
+  background: linear-gradient(135deg,#2563eb,#1e40af);
+  color: white;
+  padding: 1.8rem;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.doccta-btn{
+  display: inline-block;
+  background: white;
+  color: #1e40af;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+/* ─────────────────────────────
+   RESPONSIVE
+───────────────────────────── */
+@media (max-width: 1024px){
+  .docbody-wrap{
+    grid-template-columns: 1fr;
+  }
+
+  .docsidebar{
+    position: static;
+  }
+
+  .docstats-inner{
+    flex-direction: column;
+  }
+
+  .doc-inner{
+    grid-template-columns: 1fr;
+  }
+}
