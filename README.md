@@ -1,64 +1,85 @@
-Meridian Health — Virtual Clinic
-Meridian Health is a high-performance, secure virtual healthcare platform. It provides a seamless bridge between patients and licensed practitioners, featuring a custom-designed interface built for trust, clarity, and ease of use.
+🏥 Meridian Health — Virtual Clinic
 
-Core Features
-Secure Video Consultations: End-to-end encrypted sessions with licensed doctors.
+Meridian Health is a modern, secure virtual healthcare platform designed to connect patients with licensed practitioners through a seamless and intuitive digital experience.
 
-Intuitive Booking: A streamlined 4-step process: Service -> Time -> Confirmation -> Session.
+Built with performance, security, and user trust in mind, the platform delivers a clean clinical interface and a streamlined consultation workflow.
 
+✨ Overview
 
+Meridian Health enables:
 
-Patient Dashboard: Real-time "Upcoming Appointments" tracking and session management.
+Remote consultations with real doctors
+Simple appointment scheduling
+Centralized patient management
+Secure medical documentation
 
-Digital Follow-ups: Comprehensive post-session documentation for diagnoses and prescriptions.
+💡 Designed to feel like a premium digital clinic — fast, minimal, and trustworthy.
 
-🛠️ Technical Architecture
-Backend: Laravel 12.52.0
+📸 UI Preview
+🏠 Landing Page
 
-Frontend: Custom Vue.js 3 implementation
+📅 Booking Flow
 
-Asset Pipeline: Vite (for optimized CSS and JS delivery)
+📊 Patient Dashboard
 
-Styling: Custom CSS utilizing a premium typography pairing:
+🎥 Video Consultation
 
-Serif: Cormorant Garamond (for headings and clinical elegance)
+📄 Medical Report / Follow-up
 
-Sans-Serif: DM Sans (for UI clarity and readability)
+📌 Place your screenshots inside a /screenshots folder in your repo
+(you can rename images as needed)
 
-📥 Local Installation
-Clone the Repository:
+🚀 Core Features
+🔐 Secure Video Consultations
+End-to-end encrypted sessions
+Real-time communication with licensed doctors
+📅 Smart Booking System
 
-Bash
+A clean 4-step process:
 
+Service → Time → Confirmation → Session
+📊 Patient Dashboard
+View upcoming appointments
+Manage sessions
+Track medical history
+📄 Digital Follow-ups
+Diagnoses
+Prescriptions
+Doctor recommendations
+🧠 Technical Highlights (Portfolio Focus)
+⚡ High-performance frontend powered by Vue.js 3
+🔒 Backend security handled with Laravel
+🎯 Clean UI/UX with custom design system
+📦 Optimized asset bundling via Vite
+🧩 Modular and scalable architecture
+🛠️ Tech Stack
+Layer	Technology
+Backend	Laravel 12.52.0
+Frontend	Vue.js 3
+Build Tool	Vite
+Database	MySQL
+Styling	Custom CSS
+🎨 Typography
+Cormorant Garamond → Elegant clinical headings
+DM Sans → Clean and readable UI
+⚙️ Local Setup
+1. Clone Repository
 git clone https://github.com/omomohagiogu/meridian.git
 cd meridian
-Install Dependencies:
-
-Bash
-
+2. Install Dependencies
 composer install
 npm install
-Environment Setup:
-
-Bash
-
+3. Configure Environment
 cp .env.example .env
 php artisan key:generate
-Note: Configure your database in .env (compatible with XAMPP/MySQL).
 
-Database Migration:
+Update your .env with database credentials (MySQL/XAMPP recommended)
 
-Bash
-
+4. Run Migrations
 php artisan migrate --seed
-Compile & Run:
-To resolve the ViteManifestNotFoundException and view the custom styles:
-
-Bash
-
+5. Compile Assets
 npm run dev
-In a separate terminal, serve the app:
-
-Bash
-
+6. Start Server
 php artisan serve
+🧪 Production Build
+npm run build
