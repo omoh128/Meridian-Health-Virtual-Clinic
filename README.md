@@ -79,7 +79,10 @@ Update your .env with database credentials (MySQL/XAMPP recommended)
 php artisan migrate --seed
 5. Compile Assets
 npm run dev
-6. Start Server
+<img width="1440" height="4564" alt="127 0 0 1_8000_ (1)" src="https://github.com/user-attachments/assets/e5193506-7b15-4395-92a9-90135564b325" />
+
+
+7. Start Server
 php artisan serve
 🧪 Production Build
 npm run build
