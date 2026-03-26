@@ -81,8 +81,11 @@ php artisan serve
 🧪 Production Build
 npm run build
 <<<<<<< HEAD
-
-<img width="1440" height="4564" alt="127 0 0 1_8000_ (1)" src="https://github.com/user-attachments/assets/325f38f1-7f00-456e-81a9-1fdc3c9d6be4" />
-
-=======
 >>>>>>> edit readme file
+### 🖥️ Dashboard Overview
+
+**Patient Booking View:**
+![Patient View](screenshots/hero-screenshot.png)
+
+**Doctor Appointment Management:**
+![Doctor Dashboard](screenshots/doctor-dashboard.png)
