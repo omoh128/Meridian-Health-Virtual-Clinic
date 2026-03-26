@@ -16,6 +16,6 @@ class Booking extends Model
         'time',
         'reason',
         'status',
-        
+
     ];
 }

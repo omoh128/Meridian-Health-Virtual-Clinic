@@ -1,5 +1,17 @@
 <?php
 
+/**
+ * Meridian Booking and Availability Routes
+ *
+ * PHP version 8.2
+ *
+ * @category Router
+ * @package  Meridian
+ * @author   Your Name <you@example.com>
+ * @license  https://opensource.org/licenses/MIT MIT
+ * @link     https://laravel.com
+ */
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\AvailabilityController;

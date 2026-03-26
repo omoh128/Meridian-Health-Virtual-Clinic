@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset name="Laravel Project Standard">
+    <description>A custom coding standard for Meridian using PSR-12.</description>
+
+    <rule ref="PSR12"/>
+
+    <file>app</file>
+    <file>routes</file>
+    <file>database</file>
+    <file>config</file>
+
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/storage/*</exclude-pattern>
+    <exclude-pattern>*.blade.php</exclude-pattern>
+
+    <config name="php_version" value="80200"/>
+
+    <arg name="colors"/>
+</ruleset>

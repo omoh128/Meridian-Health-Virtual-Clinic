@@ -11,9 +11,12 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentCancelled extends Mailable
 {
-    use Queueable, SerializesModels;
+    use Queueable;
+    use SerializesModels;
 
-    public function __construct(public Booking $booking) {}
+    public function __construct(public Booking $booking)
+    {
+    }
 
     public function envelope(): Envelope
     {

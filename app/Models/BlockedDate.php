@@ -1,4 +1,5 @@
 <?php
+
 // app/Models/BlockedDate.php
 
 namespace App\Models;

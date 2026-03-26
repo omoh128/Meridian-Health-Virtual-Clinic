@@ -1,5 +1,4 @@
 <?php
-// app/Models/Availability.php
 
 namespace App\Models;
 
