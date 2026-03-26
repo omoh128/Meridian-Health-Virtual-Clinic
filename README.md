@@ -26,40 +26,36 @@ Secure medical documentation
 
 📄 Medical Report / Follow-up
 
-📌 Place your screenshots inside a /screenshots folder in your repo
-(you can rename images as needed)
-
-🚀 Core Features
-🔐 Secure Video Consultations
+ Core Features
+ Secure Video Consultations
 End-to-end encrypted sessions
 Real-time communication with licensed doctors
-📅 Smart Booking System
+Smart Booking System
 
 A clean 4-step process:
 
 Service → Time → Confirmation → Session
-📊 Patient Dashboard
+Patient Dashboard
 View upcoming appointments
 Manage sessions
 Track medical history
-📄 Digital Follow-ups
+Digital Follow-ups
 Diagnoses
 Prescriptions
 Doctor recommendations
-🧠 Technical Highlights (Portfolio Focus)
-⚡ High-performance frontend powered by Vue.js 3
-🔒 Backend security handled with Laravel
-🎯 Clean UI/UX with custom design system
-📦 Optimized asset bundling via Vite
-🧩 Modular and scalable architecture
-🛠️ Tech Stack
+ Technical Highlights
+ High-performance frontend powered by Vue.js 3
+Backend security handled with Laravel
+Clean UI/UX with custom design system
+Modular and scalable architecture
+Tech Stack
 Layer	Technology
 Backend	Laravel 12.52.0
 Frontend	Vue.js 3
 Build Tool	Vite
 Database	MySQL
 Styling	Custom CSS
-🎨 Typography
+Typography
 Cormorant Garamond → Elegant clinical headings
 DM Sans → Clean and readable UI
 ⚙️ Local Setup
@@ -84,6 +80,9 @@ npm run dev
 php artisan serve
 🧪 Production Build
 npm run build
+<<<<<<< HEAD
 
 <img width="1440" height="4564" alt="127 0 0 1_8000_ (1)" src="https://github.com/user-attachments/assets/325f38f1-7f00-456e-81a9-1fdc3c9d6be4" />
 
+=======
+>>>>>>> edit readme file
